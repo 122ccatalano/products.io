@@ -1,11 +1,23 @@
-.left {
-  text-align: left;
+marquee, th, h1{
+  font-size: 30px;
+  font-weight: 800;
+  color: #3385ff;
+  font-family: sans-serif;
 }
-
-.center {
+h1 {
   text-align: center;
 }
-
-.right {
-  text-align: right;
+ th {
+   align-content: center;
+ }
+table {
+  width: 40vw;
+  margin: auto;
+}
+img {
+  height: 400px;
+  width: 400px;
+}
+.images {
+  width: 100vw;
 }
