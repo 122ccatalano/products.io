@@ -21,3 +21,15 @@ img {
 .images {
   width: 100vw;
 }
+
+.bpc {
+  height: 50%;
+  width: 50%;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #66a3ff;
+  font-family: sans-serif;
+  text-align: center;
+}
