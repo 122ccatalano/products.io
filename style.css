@@ -14,6 +14,15 @@ table {
   width: 40vw;
   margin: auto;
 }
+td {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-align: center;
+}
+.screen {
+  width: 100vw;
+}
 img {
   height: 400px;
   width: 400px;
@@ -32,4 +41,7 @@ p {
   color: #66a3ff;
   font-family: sans-serif;
   text-align: center;
+}
+img:hover {
+  transform: scale(1.25);
 }
