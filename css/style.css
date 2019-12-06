@@ -1,0 +1,66 @@
+#header {
+  background-image: linear-gradient(-90deg, #00d4ff, #540979);
+}
+#
+a:link {
+  color: #3385ff;
+}
+a:visited {
+  color: #003d99;
+}
+marquee, th, h1{
+  font-size: 30px;
+  font-weight: 800;
+  color: #3385ff;
+  font-family: sans-serif;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scale(0.75);
+}
+h1 {
+  text-align: center;
+}
+ th {
+   align-content: center;
+ }
+table {
+  width: 40vw;
+  margin: auto;
+}
+td {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: sans-serif;
+  text-align: center;
+}
+.screen {
+  width: 100vw;
+}
+.img {
+  height: 400px;
+  width: 400px;
+}
+.images {
+  width: 100vw;
+}
+
+.bpc {
+  height: 50%;
+  width: 50%;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #003d99;
+  font-family: sans-serif;
+  text-align: center;
+}
+.img:hover {
+  transform: scale(1.25);
+}
+h3 {
+  text-align: right;
+}
