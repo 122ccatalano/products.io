@@ -7,6 +7,20 @@
     <link rel = "icon" href ="img/logo.jpg" type = "image/jpg">
   </head>
   <body>
+    <div class="navbar">
+  <a href="https://122ccatalano.github.io/122ccatalano.io/">Home</a>
+  <a href="https://122ccatalano.github.io/calendar.io/">Calendar</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Dropdown
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="https://122ccatalano.github.io/movie.io/">My Favorite Movie</a>
+    <a href="https://122ccatalano.github.io/products.io/">My Product</a>
+    <a href="https://122ccatalano.github.io/hometown.io/">My Hometown</a>
+  </div>
+  </div>
+</div>
     <div id="header">
     <marquee scrollamount="10">All PC's Are Hand-Built - Free Shipping - Save Up To 15% Off Of All Pre-Built PC's - 10% Off All PC Components Until December 26th</marquee>
     <img class="logo" src="img/binary1.jpg" alt="">
@@ -64,5 +78,22 @@
   <div id="bottom">
     <h3>PC Place - Instagram: @PC.Place - Contact Us: - 1(800)768-8422</h3>
   </div>
+  <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+if (!e.target.matches('.dropbtn')) {
+var myDropdown = document.getElementById("myDropdown");
+  if (myDropdown.classList.contains('show')) {
+    myDropdown.classList.remove('show');
+  }
+}
+}
+</script>
   </body>
 </html>
